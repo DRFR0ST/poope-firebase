@@ -10,14 +10,17 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "8"
+    "node": "10"
   },
   "main": "lib/index.js",
   "dependencies": {
+    "@assistant/conversation": "^3.1.0",
     "@types/cors": "^2.8.7",
+    "@types/moment": "^2.13.0",
     "cors": "^2.8.5",
     "firebase-admin": "^8.10.0",
-    "firebase-functions": "^3.6.1"
+    "firebase-functions": "^3.6.1",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.2.0",
